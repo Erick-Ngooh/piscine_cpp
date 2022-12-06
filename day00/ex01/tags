@@ -1,0 +1,109 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/mnt/nfs/homes/engooh/piscine_cpp/day00/ex01_bis/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+$(NAME)	Makefile	/^$(NAME): $(OBJS)$/;"	t
+$(OBJS)	Makefile	/^$(OBJS): $(SRCS)$/;"	t
+BBLK	colorCode.hpp	/^#define BBLK /;"	d
+BBLU	colorCode.hpp	/^#define BBLU /;"	d
+BCYN	colorCode.hpp	/^#define BCYN /;"	d
+BGRN	colorCode.hpp	/^#define BGRN /;"	d
+BHBLK	colorCode.hpp	/^#define BHBLK /;"	d
+BHBLU	colorCode.hpp	/^#define BHBLU /;"	d
+BHCYN	colorCode.hpp	/^#define BHCYN /;"	d
+BHGRN	colorCode.hpp	/^#define BHGRN /;"	d
+BHMAG	colorCode.hpp	/^#define BHMAG /;"	d
+BHRED	colorCode.hpp	/^#define BHRED /;"	d
+BHWHT	colorCode.hpp	/^#define BHWHT /;"	d
+BHYEL	colorCode.hpp	/^#define BHYEL /;"	d
+BLK	colorCode.hpp	/^#define BLK /;"	d
+BLKB	colorCode.hpp	/^#define BLKB /;"	d
+BLKHB	colorCode.hpp	/^#define BLKHB /;"	d
+BLU	colorCode.hpp	/^#define BLU /;"	d
+BLUB	colorCode.hpp	/^#define BLUB /;"	d
+BLUHB	colorCode.hpp	/^#define BLUHB /;"	d
+BMAG	colorCode.hpp	/^#define BMAG /;"	d
+BRED	colorCode.hpp	/^#define BRED /;"	d
+BWHT	colorCode.hpp	/^#define BWHT /;"	d
+BYEL	colorCode.hpp	/^#define BYEL /;"	d
+CC	Makefile	/^CC = c++$/;"	m
+COLOR_RESET	colorCode.hpp	/^#define COLOR_RESET /;"	d
+CONTACT_CLASS_H	Contact.hpp	/^#	define CONTACT_CLASS_H$/;"	d
+CRESET	colorCode.hpp	/^#define CRESET /;"	d
+CYN	colorCode.hpp	/^#define CYN /;"	d
+CYNB	colorCode.hpp	/^#define CYNB /;"	d
+CYNHB	colorCode.hpp	/^#define CYNHB /;"	d
+Contact	Contact.cpp	/^Contact::Contact(void) {$/;"	f	class:Contact
+Contact	Contact.hpp	/^class Contact {$/;"	c
+FLAGS	Makefile	/^FLAGS = -Wall -Wextra -Werror -g3 -std=c++98$/;"	m
+GRN	colorCode.hpp	/^#define GRN /;"	d
+GRNB	colorCode.hpp	/^#define GRNB /;"	d
+GRNHB	colorCode.hpp	/^#define GRNHB /;"	d
+HBLK	colorCode.hpp	/^#define HBLK /;"	d
+HBLU	colorCode.hpp	/^#define HBLU /;"	d
+HCYN	colorCode.hpp	/^#define HCYN /;"	d
+HEADERS_HPP	header.hpp	/^#	define HEADERS_HPP$/;"	d
+HGRN	colorCode.hpp	/^#define HGRN /;"	d
+HMAG	colorCode.hpp	/^#define HMAG /;"	d
+HRED	colorCode.hpp	/^#define HRED /;"	d
+HWHT	colorCode.hpp	/^#define HWHT /;"	d
+HYEL	colorCode.hpp	/^#define HYEL /;"	d
+MAG	colorCode.hpp	/^#define MAG /;"	d
+MAGB	colorCode.hpp	/^#define MAGB /;"	d
+MAGHB	colorCode.hpp	/^#define MAGHB /;"	d
+NAME	Makefile	/^NAME = phonebook$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:.cpp=.o)$/;"	m
+PhoneBook	PhoneBook.cpp	/^PhoneBook::PhoneBook(void) {$/;"	f	class:PhoneBook
+PhoneBook	PhoneBook.hpp	/^class PhoneBook {$/;"	c
+RED	colorCode.hpp	/^#define RED /;"	d
+REDB	colorCode.hpp	/^#define REDB /;"	d
+REDHB	colorCode.hpp	/^#define REDHB /;"	d
+UBLK	colorCode.hpp	/^#define UBLK /;"	d
+UBLU	colorCode.hpp	/^#define UBLU /;"	d
+UCYN	colorCode.hpp	/^#define UCYN /;"	d
+UGRN	colorCode.hpp	/^#define UGRN /;"	d
+UMAG	colorCode.hpp	/^#define UMAG /;"	d
+URED	colorCode.hpp	/^#define URED /;"	d
+UWHT	colorCode.hpp	/^#define UWHT /;"	d
+UYEL	colorCode.hpp	/^#define UYEL /;"	d
+WHT	colorCode.hpp	/^#define WHT /;"	d
+WHTB	colorCode.hpp	/^#define WHTB /;"	d
+WHTHB	colorCode.hpp	/^#define WHTHB /;"	d
+YEL	colorCode.hpp	/^#define YEL /;"	d
+YELB	colorCode.hpp	/^#define YELB /;"	d
+YELHB	colorCode.hpp	/^#define YELHB /;"	d
+_contacts	PhoneBook.hpp	/^		Contact 	_contacts[8];$/;"	m	class:PhoneBook	typeref:typename:Contact[8]
+_darkestSecret	Contact.hpp	/^		std::string		_darkestSecret;	$/;"	m	class:Contact	typeref:typename:std::string
+_firstName	Contact.hpp	/^		std::string		_firstName;	$/;"	m	class:Contact	typeref:typename:std::string
+_index	PhoneBook.hpp	/^		int				_index;$/;"	m	class:PhoneBook	typeref:typename:int
+_init	Contact.hpp	/^		char					_init[2];$/;"	m	class:Contact	typeref:typename:char[2]
+_lastName	Contact.hpp	/^		std::string		_lastName;	$/;"	m	class:Contact	typeref:typename:std::string
+_nickName	Contact.hpp	/^		std::string		_nickName;	$/;"	m	class:Contact	typeref:typename:std::string
+_phoneNumber	Contact.hpp	/^		std::string		_phoneNumber;	$/;"	m	class:Contact	typeref:typename:std::string
+addContact	PhoneBook.cpp	/^int	PhoneBook::addContact(void) {$/;"	f	class:PhoneBook	typeref:typename:int
+all	Makefile	/^all: $(NAME)$/;"	t
+clean	Makefile	/^clean:$/;"	t
+fclean	Makefile	/^fclean: clean$/;"	t
+getDarkestSecret	Contact.cpp	/^void	Contact::getDarkestSecret(void) const {$/;"	f	class:Contact	typeref:typename:void
+getFirstName	Contact.cpp	/^void	Contact::getFirstName(void) const {$/;"	f	class:Contact	typeref:typename:void
+getIndex	PhoneBook.cpp	/^int	PhoneBook::getIndex(void) const {$/;"	f	class:PhoneBook	typeref:typename:int
+getInfoContact	Contact.cpp	/^void	Contact::getInfoContact(void) const {$/;"	f	class:Contact	typeref:typename:void
+getInfoContactIndex	PhoneBook.cpp	/^void	PhoneBook::getInfoContactIndex(int index) {$/;"	f	class:PhoneBook	typeref:typename:void
+getLastName	Contact.cpp	/^void	Contact::getLastName(void) const {$/;"	f	class:Contact	typeref:typename:void
+getNickName	Contact.cpp	/^void	Contact::getNickName(void) const {$/;"	f	class:Contact	typeref:typename:void
+getPhoneNumber	Contact.cpp	/^void	Contact::getPhoneNumber(void) const {$/;"	f	class:Contact	typeref:typename:void
+main	main.cpp	/^int main(void) {$/;"	f	typeref:typename:int
+re	Makefile	/^re: fclean $(NAME)$/;"	t
+reset	colorCode.hpp	/^#define reset /;"	d
+runPhonebook	main.cpp	/^int	runPhonebook(void)$/;"	f	typeref:typename:int
+setIndex	PhoneBook.cpp	/^void	PhoneBook::setIndex(int n) {$/;"	f	class:PhoneBook	typeref:typename:void
+setInfoContact	Contact.cpp	/^int		Contact::setInfoContact(std::string const content) {$/;"	f	class:Contact	typeref:typename:int
+~Contact	Contact.cpp	/^Contact::~Contact(void) {$/;"	f	class:Contact
+~PhoneBook	PhoneBook.cpp	/^PhoneBook::~PhoneBook(void) {$/;"	f	class:PhoneBook
