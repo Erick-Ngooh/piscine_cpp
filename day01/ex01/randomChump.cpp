@@ -1,24 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   header.hpp                                         :+:      :+:    :+:   */
+/*   randomChump.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: engooh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 17:15:11 by engooh            #+#    #+#             */
-/*   Updated: 2022/12/07 04:14:53 by engooh           ###   ########.fr       */
+/*   Created: 2022/12/06 20:56:07 by engooh            #+#    #+#             */
+/*   Updated: 2022/12/06 21:41:23 by engooh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HEADERS_HPP
-#	define HEADERS_HPP
+#include "zombie.hpp"
 
-# include <string>
-# include <iostream>
-# include <cstdlib>
-# include <iomanip>
-# include "colorCode.hpp"
-
-void	printformat(std::string content);
-
-#endif
+void	Zombie::randomChump( std::string name ) {
+	Zombie	zombie(name);
+	zombie.announce();
+	return ;
+}

@@ -1,24 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   header.hpp                                         :+:      :+:    :+:   */
+/*   HumanA.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: engooh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 17:15:11 by engooh            #+#    #+#             */
-/*   Updated: 2022/12/07 04:14:53 by engooh           ###   ########.fr       */
+/*   Created: 2022/12/07 02:09:31 by engooh            #+#    #+#             */
+/*   Updated: 2022/12/07 04:11:09 by engooh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HEADERS_HPP
-#	define HEADERS_HPP
 
-# include <string>
-# include <iostream>
-# include <cstdlib>
-# include <iomanip>
-# include "colorCode.hpp"
+#ifndef HUMANA_H
+#define HUMANA_H
 
-void	printformat(std::string content);
+#include "Weapon.hpp"
+
+class HumanA {
+
+	public:
+		HumanA(std::string name, Weapon &weapon);
+		~HumanA(void);
+		void	attack(void);
+
+	private:
+		std::string _name;
+		Weapon			&_weapon;
+};
 
 #endif

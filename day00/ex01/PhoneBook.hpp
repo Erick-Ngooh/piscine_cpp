@@ -6,12 +6,15 @@
 /*   By: engooh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 19:27:14 by engooh            #+#    #+#             */
-/*   Updated: 2022/12/05 20:05:12 by engooh           ###   ########.fr       */
+/*   Updated: 2022/12/07 04:15:54 by engooh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header.hpp"
-# include "Contact.hpp"
+#include "Contact.hpp"
+
+#ifndef  PHONEBOOK_H
+#define  PHONEBOOK_H
 
 class PhoneBook {
 
@@ -28,3 +31,5 @@ class PhoneBook {
 		int				_index;
 		Contact 	_contacts[8];
 };
+
+#endif

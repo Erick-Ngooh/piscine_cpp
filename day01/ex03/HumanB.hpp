@@ -1,24 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   header.hpp                                         :+:      :+:    :+:   */
+/*   HumanB.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: engooh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 17:15:11 by engooh            #+#    #+#             */
-/*   Updated: 2022/12/07 04:14:53 by engooh           ###   ########.fr       */
+/*   Created: 2022/12/07 02:57:58 by engooh            #+#    #+#             */
+/*   Updated: 2022/12/07 04:11:14 by engooh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HEADERS_HPP
-#	define HEADERS_HPP
+#ifndef HUMANB_H
+#define HUMANB_H
 
-# include <string>
-# include <iostream>
-# include <cstdlib>
-# include <iomanip>
-# include "colorCode.hpp"
+#include "Weapon.hpp"
 
-void	printformat(std::string content);
+class HumanB {
+
+	public:
+		HumanB(std::string name);
+		~HumanB(void);
+		void	attack(void);
+		void	setWeapon(Weapon &ref);
+
+	private:
+		std::string _name;
+		Weapon			*_weapon;
+};
 
 #endif

@@ -1,24 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   header.hpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: engooh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 17:15:11 by engooh            #+#    #+#             */
-/*   Updated: 2022/12/07 04:14:53 by engooh           ###   ########.fr       */
+/*   Created: 2022/12/06 20:54:28 by engooh            #+#    #+#             */
+/*   Updated: 2022/12/07 01:13:45 by engooh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HEADERS_HPP
-#	define HEADERS_HPP
+#include "zombie.hpp"
 
-# include <string>
-# include <iostream>
-# include <cstdlib>
-# include <iomanip>
-# include "colorCode.hpp"
+int	main(void) {
+	Zombie	first = Zombie("zombie_zero");
+	std::cout << std::endl;
 
-void	printformat(std::string content);
+	Zombie	*horde = first.zombieHorde(42, "Zombie_horde");
+	std::cout << std::endl;
+	
+	for (int i = 0; i < 42; i++)
+		horde[i].announce();
+	std::cout << std::endl;
 
-#endif
+	delete [] horde;
+	std::cout << std::endl;
+	return 0;
+}

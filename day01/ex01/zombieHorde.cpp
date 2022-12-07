@@ -1,24 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   header.hpp                                         :+:      :+:    :+:   */
+/*   zombieHorde.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: engooh <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/03 17:15:11 by engooh            #+#    #+#             */
-/*   Updated: 2022/12/07 04:14:53 by engooh           ###   ########.fr       */
+/*   Created: 2022/12/07 00:32:35 by engooh            #+#    #+#             */
+/*   Updated: 2022/12/07 01:08:17 by engooh           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HEADERS_HPP
-#	define HEADERS_HPP
+#include "zombie.hpp"
 
-# include <string>
-# include <iostream>
-# include <cstdlib>
-# include <iomanip>
-# include "colorCode.hpp"
+Zombie *Zombie::zombieHorde(int N, std::string name) {
+	Zombie	*horde = new Zombie[N];
 
-void	printformat(std::string content);
+	for (int i = 0; i < N; i++) {
+		horde[i].setName(name);
+	}
 
-#endif
+	return horde;
+}
