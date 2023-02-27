@@ -1,0 +1,25 @@
+operator<<(std::cout, a) = 0
+
+++a = 0.00390625
+a = 0.00390625
+a++ = 0.00390625
+a = 0.0078125
+b = 10.1016
+
+max(a, b) = 10.1016
+min(a, b) = 0.0078125
+
+b.toFloat() = 10.1016
+b.toInt() = 10
+
+a < b : true
+a > b : false
+a <= b : true
+a >= b : false
+a == b : false
+a != b : true
+
+a + b : 10.1094
+a - b : -10.0938
+a * b : 0.078125
+a / b : 0
