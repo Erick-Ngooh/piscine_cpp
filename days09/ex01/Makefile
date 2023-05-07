@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -Wall -Wextra -std=c++98
+CXXFLAGS = -Wall -Wextra -std=c++98 -g3
 
 EXEC = RPN
 
