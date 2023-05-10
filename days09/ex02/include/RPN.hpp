@@ -2,7 +2,8 @@
 
 #include <iostream>
 #include <sstream>
-#include <stack>
+#include <list>
+#include <vector>
 #include <string>
 #include <string.h>
 #include <stdlib.h>
